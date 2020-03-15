@@ -107,3 +107,36 @@ nav {
     height: 400px;
     background-color: grey;
   }
+
+  .indiflower{font-family: 'Indie Flower', cursive;}
+
+  .pacifico{font-family: 'Pacifico', cursive;}
+
+  .dancingscript{font-family: 'Dancing Script', cursive;}
+
+  .liu{font-family: 'Liu Jian Mao Cao', cursive;}
+
+
+
+  @media only screen and (max-width: 1000px){
+
+  #nav-toggle {
+    display: none;
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#navbar ul {
+  display: none;
+}
+
+#navbar input:checked~ul {
+  display: block;
+}
+
+}
+
+
