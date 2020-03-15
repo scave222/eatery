@@ -98,7 +98,9 @@ nav {
   .footcolor{color: white;margin-bottom: 0; background-color: #840b2a;background-size: cover;}
 
 
-  .menucolor{color:rgb(85, 73, 5)}
+  .menucolor{color:rgb(85, 73, 5);}
+
+  .textcolor{color:rgb(85, 73, 5);}
 
   #map {
     width: 100%;
